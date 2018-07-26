@@ -17,6 +17,6 @@ class Ideone
 			System.out.println("Vowels");
 		}
 		else
-		System.out.println("consonants");
+		System.out.println("Consonants");
 	}
 }
