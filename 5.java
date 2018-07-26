@@ -9,11 +9,11 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		double n1,n2,n3;
+		int n1,n2,n3;
 		Scanner Sc=new Scanner(System.in);
-		n1=Sc.nextDouble();
-		n2=Sc.nextDouble();
-		n3=Sc.nextDouble();
+		n1=Sc.nextInt();
+		n2=Sc.nextInt();
+		n3=Sc.nextInt();
 		if(n1>=n2 && n1>=n3)
 		{
 			System.out.println(n1);
