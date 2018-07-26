@@ -14,9 +14,9 @@ class Ideone
 		ch=Sc.next().charAt(0);
 		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
 		{
-			System.out.println("Vowels");
+			System.out.println("Vowel");
 		}
 		else
-		System.out.println("Consonants");
+		System.out.println("Consonant");
 	}
 }
