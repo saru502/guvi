@@ -9,15 +9,14 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int base,exp;
+		int base,exp,i;
 		Scanner Sc=new Scanner(System.in);
 		base=Sc.nextInt();
 		exp=Sc.nextInt();
 		 int result=1;
-		while(exp!=0)
+		for(i=0;i<exp;i++)
 		{
 			result=result*base;
-			--exp;
 		}
 		System.out.println(result);
 	}
