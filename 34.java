@@ -10,7 +10,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int i,n,count=0,word=0;
+		int i,n,count=0;
 		Scanner s=new Scanner(System.in);
 		String str=s.nextLine();
 		for(i=0;i<str.length();i++)
@@ -20,6 +20,6 @@ class Ideone
 				count++;
 			}
 		}
-			System.out.println(count);
+			System.out.println(count+1);
 	}
 }
