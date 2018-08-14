@@ -10,7 +10,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int i,n,num=0,ch=0,count=0;
+		int i,n,num=0,ch=0,count=0,k=0;
 		Scanner s=new Scanner(System.in);
 		String str=s.nextLine();
 		for(i=0;i<str.length();i++)
@@ -22,6 +22,10 @@ class Ideone
 			else if(str.charAt(i)>='a'&&str.charAt(i)<='z'||str.charAt(i)>='A'&&str.charAt(i)<='Z')
 			{
 				ch++;
+			}
+			else if(str.charAt(i)=='_')
+			{
+				k++;
 			}
 			else
 			count++;
