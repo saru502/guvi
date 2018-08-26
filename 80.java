@@ -17,6 +17,7 @@ class Ideone
 		{
 			if(str.charAt(i)%2!=0)
 			{
+		
 				System.out.println(str.charAt(i)+" ");
 			}
 		}
