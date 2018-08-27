@@ -12,8 +12,8 @@ class Ideone
 		// your code goes here
 		float l,b,a;
 		Scanner s=new Scanner(System.in);
-		l=s.nextInt();
-		b=s.nextInt();
+		l=s.nextFloat();
+		b=s.nextFloat();
 		a=l*b;
 		System.out.format("%.5f",a);
 	}	
