@@ -14,14 +14,14 @@ class Ideone
 		Scanner s=new Scanner(System.in);
 		n=s.nextInt();
 		k=s.nextInt();
-		int a[]=new int[n];
-		for(i=0;i<n+1;i++)
+		int a[]=new int[n+1];
+		for(i=1;i<n+1;i++)
 		{
 			a[i]=s.nextInt();
 		}
-		for(i=0;i<n+1;i++)
+		for(i=1;i<n+1;i++)
 		{
-			if(k==i);
+			if(k==i)
 			{
 				System.out.println(a[i]);
 			}
