@@ -16,5 +16,7 @@ class Ideone
 		s2=s.next();
 		s3=s1+s2;
 		System.out.println(s3);
+		
+		
 	}
 }
