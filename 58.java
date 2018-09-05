@@ -9,6 +9,9 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
+		
+		
+		
 	 int n,k,i;
 	 boolean flag=false;
 	 Scanner s=new Scanner(System.in);
