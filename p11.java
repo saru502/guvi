@@ -13,7 +13,7 @@ class Ideone
 		String str;
 		Scanner s=new Scanner(System.in);
 		str=s.next();
-		if(str.equals("saturday")||str.equals("sunday"))
+		if(str.equals("Saturday")||str.equals("Sunday"))
 		{
 			System.out.println("yes");
 		}
