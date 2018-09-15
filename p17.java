@@ -9,6 +9,8 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
+		
+		
 		int l,r,gcd=0,i,lcm; 
 		Scanner s=new Scanner(System.in);
 		l=s.nextInt();
