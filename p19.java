@@ -9,8 +9,9 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		// your code goes here
-		int i,j,flag=1,n;
+		
+		
+		int n,i,j,flag=1;
 		Scanner s=new Scanner(System.in);
 		n=s.nextInt();
 		for(i=2;i<=n;i++)
@@ -31,6 +32,9 @@ class Ideone
 					System.out.println(i);
 				}
 			}
+			
 		}
 	}
 }
+
+			
