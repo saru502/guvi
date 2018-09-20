@@ -11,6 +11,9 @@ class Ideone
 	{
 		String str;
 		
+		
+		
+		
 		boolean flag=false;
 		Scanner s=new Scanner(System.in);
 		str=s.next();
